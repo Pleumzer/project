@@ -23,6 +23,7 @@ import { MainComponent } from './pages/questions/main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { MyQuestionsComponent } from './pages/my-questions/my-questions.component';
+import { UserListComponent } from './pages/users/user-list/user-list.component';
 import { QuestionsDetailComponent } from './pages/questions/questions-detail/questions-detail.component';
 
 import { UserListComponent } from './pages/users/user-list/user-list.component';
@@ -46,6 +47,7 @@ import { UserListComponent } from './pages/users/user-list/user-list.component';
           RegisterComponent,
           QMainComponent,
           MainComponent,
+          UserListComponent,
           QuestionsDetailComponent,
           UserListComponent,
   ],
