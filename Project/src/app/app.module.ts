@@ -24,6 +24,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { MyQuestionsComponent } from './pages/my-questions/my-questions.component';
 import { QuestionsDetailComponent } from './pages/questions/questions-detail/questions-detail.component';
 
+import { UserListComponent } from './pages/users/user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { QuestionsDetailComponent } from './pages/questions/questions-detail/que
           QMainComponent,
           MainComponent,
           QuestionsDetailComponent,
+          UserListComponent,
   ],
   imports: [
     BrowserModule,

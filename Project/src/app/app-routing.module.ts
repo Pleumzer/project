@@ -11,6 +11,7 @@ import { MainComponent } from './pages/questions/main/main.component';
 import { MyQuestionsComponent } from './pages/my-questions/my-questions.component';
 import { QMainComponent } from './components/questions/q-main/q-main.component';
 import { QuestionsDetailComponent } from './pages/questions/questions-detail/questions-detail.component';
+import { UserListComponent } from './pages/users/user-list/user-list.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent },
   { path: 'login', redirectTo: '/login', pathMatch: 'full' },
   { path: 'register', component: RegisterComponent },
+  { path: 'users', component: UserListComponent },
 
   { path: 'questions/main',component:MainComponent },
 
