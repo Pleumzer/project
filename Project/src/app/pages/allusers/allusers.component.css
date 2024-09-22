@@ -43,6 +43,9 @@
   margin: 0;
   font-size: 14px;
   color: #555;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis (...) for long text */
 }
 
 .form-control {
@@ -89,6 +92,13 @@
     width: 80px;
     height: 80px;
   }
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/assets/fonts/THSarabun.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (max-width: 576px) {
